@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container w-25 me-3 justify-content-end mt-3">
+      <div id="MyAccordion" class="accordion">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button
+              type="button"
+              class="accordion-button bg-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+            >
+              Marka
+            </button>
+          </h4>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#MyAccordion"
+          >
+            <div class="accordion-body">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Acer
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckChecked"
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Asus
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckChecked"
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Casper
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckChecked"
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Dell
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckChecked"
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  HP
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckChecked"
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Monster
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexCheckChecked"
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  MSI
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button
+              type="button"
+              class="accordion-button bg-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+            >
+              Fiyat
+            </button>
+          </h4>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#MyAccordion"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-6 my-2">
+                  <label for="minPrice" class="form-label">En az</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="minPrice"
+                    id="minPrice"
+                    placeholder="5.000 TL"
+                  />
+                </div>
+                <div class="col-md-6 my-2">
+                  <label for="maxPrice" class="form-label">En cok</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="maxPrice"
+                    id="maxPrice"
+                    placeholder="10.000 TL"
+                  />
+                </div>
+                <div class="col-md-12 my-2 w-100">
+                  <button class="btn btn-outline-primary" style="width: 100%">
+                    Uygula
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button
+              type="button"
+              class="accordion-button bg-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+            >
+              Ekran Boyutu
+            </button>
+          </h4>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#MyAccordion"
+          >
+            <div class="accordion-body">
+              <input
+                type="radio"
+                class="btn-check"
+                name="options"
+                id="option1"
+                autocomplete="off"
+              />
+              <label
+                class="btn btn-outline-primary bg-light text-dark"
+                for="option1"
+                >13"</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="options"
+                id="option2"
+                autocomplete="off"
+              />
+              <label
+                class="btn btn-outline-primary ms-2 bg-light text-dark"
+                for="option2"
+                >14"</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="options"
+                id="option3"
+                autocomplete="off"
+              />
+              <label
+                class="btn btn-outline-primary bg-light text-dark ms-2"
+                for="option3"
+                >15.6"</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="options"
+                id="option4"
+                autocomplete="off"
+              />
+              <label
+                class="btn btn-outline-primary bg-light text-dark ms-2"
+                for="option4"
+                >17"</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button
+              type="button"
+              class="accordion-button bg-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+            >
+              RAM Kapasitesi
+            </button>
+          </h4>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#MyAccordion"
+          >
+            <div class="accordion-body">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="ram"
+                  id="radio1"
+                />
+                <label class="form-check-label" for="radio1"> 4 GB </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="ram"
+                  id="radio2"
+                />
+                <label class="form-check-label" for="radio2"> 8 GB </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="ram"
+                  id="radio3"
+                />
+                <label class="form-check-label" for="radio3"> 16 GB </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="ram"
+                  id="radio4"
+                />
+                <label class="form-check-label" for="radio4"> 32 GB </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="ram"
+                  id="radio5"
+                />
+                <label class="form-check-label" for="radio5"> 64 GB </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
